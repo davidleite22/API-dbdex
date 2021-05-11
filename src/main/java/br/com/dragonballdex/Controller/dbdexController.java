@@ -76,7 +76,7 @@ public class dbdexController {
 	}
 
 //Buscar por ID
-	@GetMapping("/{id}")
+	@GetMapping("/personagens/{id}")
 	public ResponseEntity<?> findForId(@PathVariable long id) {
 		try {
 			return ResponseEntity.status(HttpStatus.OK).body(jumprepository.findById(id));

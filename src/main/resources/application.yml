@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/DragonBallDex
+    userName: root
+    password: Dmsl22
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            clientId: 53a0da87d3fc8208ed6d
+            clientSecret: f5dece75c44bed9392917bfc1de3fe0a482c8a19
