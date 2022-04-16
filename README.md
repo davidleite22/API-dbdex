@@ -20,7 +20,6 @@ Você ira precisar das seguintes dependências instaladas:
 
 ## Histórico de lançamentos
 0.0.1
-Trabalho em andamento
 
 ## Meta
 David – @Davidleite22 – davidleite199@gmail.com
